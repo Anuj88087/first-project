@@ -1,0 +1,107 @@
+body {
+    font-family: "Alfa Slab One", serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/athlete-7200532.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: -32px;
+    display: inline-block;
+    font-size: 56px;
+}
+
+.left img {
+    width: 600px;
+    filter: invert(100px);
+    background-color: transparent;
+    font-family: "Alfa Slab One", serif;
+}
+
+.mid {
+    display: block;
+    width: 37%;
+    margin: 36px auto;
+    font-size: 56px;
+
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 92px;
+    display: inline-block;
+    font-size: 56px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 12px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 40px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+.btn {
+    padding: 4px 17px;
+    border-radius: 25px;
+    font-size: 56px;
+    margin: 0px 9px;
+    font-family: "Alfa Slab One", serif;
+}
+
+.btn:hover {
+    color: rgb(0, 170, 255);
+    background-color: black;
+    cursor: pointer;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 218px 488px;
+    padding: 119px 333px;
+    width: 26%;
+    border-radius: 76px;
+    font-family: "Alfa Slab One", serif;
+    font-size: 34px;
+}
+.form-group input{
+    font-size: 57px;
+    text-align: center;
+    display: block;
+    width: 767px;
+    padding: 13px;
+    border: 2px solid black;
+    margin: 24px auto;
+    border-radius: 38px;
+    font-family: "Alfa Slab One", serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 584px;
+    margin: 49px auto;
+    /*background-color: black;
+    color: white;*/
+}
